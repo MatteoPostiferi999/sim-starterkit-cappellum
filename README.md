@@ -12,7 +12,7 @@ You manage an Italian restaurant for 30 simulated days. Your AI agent makes dail
 The competition server is running at:
 
 ```bash
-export RESTBENCH_URL=http://HACKATHON_SERVER:8001
+export RESTBENCH_URL=http://52.48.183.209:8001
 ```
 
 Set this environment variable and all agent scripts will use it automatically.
@@ -482,7 +482,7 @@ Server health check.
 
 ```bash
 # Against the hackathon server:
-export RESTBENCH_URL=http://HACKATHON_SERVER:8001
+export RESTBENCH_URL=http://52.48.183.209:8001
 
 # Or start a local server:
 uvicorn restbench.api.server:app --port 8001
