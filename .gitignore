@@ -13,3 +13,11 @@ restbench.db
 restbench_data/
 infra/cdk/cdk.out/
 infra/cdk/cdk.context.json
+
+# Internal files (not for participants)
+VOLUNTEER_TIPS.md
+research.py
+stress_test.py
+test_hackathon_readiness.py
+test_isolation.py
+agents/smart_agent.py

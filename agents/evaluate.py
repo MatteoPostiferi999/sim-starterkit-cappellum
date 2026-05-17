@@ -16,6 +16,9 @@ Usage:
     # Quiet mode (summary table only)
     python -m agents.evaluate agents.naive_rule --quiet
 
+    # Control parallelism (default: 5, matches server limit)
+    python -m agents.evaluate agents.naive_rule --parallel 3
+
 Scenarios are fetched from the server's GET /scenarios endpoint.
 The server controls which scenarios are available (admin can unlock hidden ones).
 Final ranking = average score across all (scenario, seed) combinations.
@@ -28,6 +31,7 @@ import importlib
 import os
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import httpx
 
@@ -61,6 +65,63 @@ def load_strategy(module_path: str):
     return mod.strategy
 
 
+MAX_PARALLEL = 10
+
+
+def _run_one(
+    strategy,
+    scenario: str,
+    seed: int,
+    base_url: str,
+    team_name: str,
+    verbose: bool,
+    label: str,
+) -> dict:
+    if verbose:
+        print(f"\n{'=' * 60}")
+        print(label)
+        print("=" * 60)
+
+    try:
+        result = run_game(
+            strategy,
+            base_url=base_url,
+            team_name=team_name,
+            scenario=scenario,
+            seed=seed,
+            verbose=verbose,
+        )
+        score = result["score"]["total_score"]
+        return {
+            "scenario": scenario,
+            "seed": seed,
+            "score": score,
+            "days": result["days_survived"],
+            "cash": result["final_cash"],
+            "profit": result["score"]["net_profit"],
+            "sat_pen": result["score"]["satisfaction_penalty"],
+            "rep_pen": result["score"]["reputation_penalty"],
+            "walk_pen": result["score"]["walkout_penalty"],
+            "waste_pen": result["score"]["waste_penalty"],
+            "status": result["status"],
+        }
+    except Exception as e:
+        print(f"  FAILED ({scenario} seed={seed}): {e}")
+        return {
+            "scenario": scenario,
+            "seed": seed,
+            "score": -100_000,
+            "days": 0,
+            "cash": 0,
+            "profit": 0,
+            "sat_pen": 0,
+            "rep_pen": 0,
+            "walk_pen": 0,
+            "waste_pen": 0,
+            "status": "error",
+        }
+
+
 def evaluate(
     strategy,
     *,
@@ -69,64 +130,39 @@ def evaluate(
     base_url: str,
     team_name: str,
     verbose: bool,
+    parallel: int = MAX_PARALLEL,
 ) -> dict:
-    results: list[dict] = []
-    scenario_totals: dict[str, list[float]] = {}
-
+    jobs = []
     total_games = len(scenarios) * len(seeds)
     game_num = 0
-
     for scenario in scenarios:
-        scenario_totals[scenario] = []
         for seed in seeds:
             game_num += 1
             label = f"[{game_num}/{total_games}] {scenario} seed={seed}"
+            jobs.append((scenario, seed, label))
 
-            if verbose:
-                print(f"\n{'=' * 60}")
-                print(label)
-                print("=" * 60)
+    results: list[dict] = []
+    completed = 0
 
-            try:
-                result = run_game(
-                    strategy,
-                    base_url=base_url,
-                    team_name=team_name,
-                    scenario=scenario,
-                    seed=seed,
-                    verbose=verbose,
-                )
-                score = result["score"]["total_score"]
-                results.append({
-                    "scenario": scenario,
-                    "seed": seed,
-                    "score": score,
-                    "days": result["days_survived"],
-                    "cash": result["final_cash"],
-                    "profit": result["score"]["net_profit"],
-                    "sat_pen": result["score"]["satisfaction_penalty"],
-                    "rep_pen": result["score"]["reputation_penalty"],
-                    "walk_pen": result["score"]["walkout_penalty"],
-                    "waste_pen": result["score"]["waste_penalty"],
-                    "status": result["status"],
-                })
-                scenario_totals[scenario].append(score)
-            except Exception as e:
-                print(f"  FAILED: {e}")
-                results.append({
-                    "scenario": scenario,
-                    "seed": seed,
-                    "score": -100_000,
-                    "days": 0,
-                    "cash": 0,
-                    "profit": 0,
-                    "sat_pen": 0,
-                    "rep_pen": 0,
-                    "walk_pen": 0,
-                    "waste_pen": 0,
-                    "status": "error",
-                })
-                scenario_totals[scenario].append(-100_000)
+    with ThreadPoolExecutor(max_workers=parallel) as pool:
+        futures = {
+            pool.submit(
+                _run_one, strategy, scenario, seed,
+                base_url, team_name, verbose, label,
+            ): (scenario, seed)
+            for scenario, seed, label in jobs
+        }
+        for future in as_completed(futures):
+            r = future.result()
+            results.append(r)
+            completed += 1
+            print(f"  Completed {completed}/{total_games}: {r['scenario']} seed={r['seed']} → {r['score']:,.0f}")
+
+    results.sort(key=lambda r: (r["scenario"], r["seed"]))
+
+    scenario_totals: dict[str, list[float]] = {}
+    for r in results:
+        scenario_totals.setdefault(r["scenario"], []).append(r["score"])
 
     return {"results": results, "scenario_totals": scenario_totals}
 
@@ -213,6 +249,12 @@ def main():
         action="store_true",
         help="Only show summary table, not per-game output",
     )
+    parser.add_argument(
+        "--parallel", "-p",
+        type=int,
+        default=MAX_PARALLEL,
+        help=f"Max parallel games (default: {MAX_PARALLEL})",
+    )
     args = parser.parse_args()
 
     strategy = load_strategy(args.agent)
@@ -238,6 +280,7 @@ def main():
         base_url=args.url,
         team_name=team_name,
         verbose=not args.quiet,
+        parallel=args.parallel,
     )
 
     print_report(data, team_name, seeds)

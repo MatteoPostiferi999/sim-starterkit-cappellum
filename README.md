@@ -234,9 +234,19 @@ Test your agent against different conditions. The final evaluation includes **hi
 | `baseline` | Standard 30-day game, no events |
 | `supply_crisis` | A major supplier goes into outage mid-game |
 | `tourist_season` | Large demand swings: surge then drop |
-| `inflation` | Ingredient prices, rent, and wages escalate over time |
 | `renovation` | Reduced table capacity for first 12 days |
-| `health_scare` | Viral negative reviews tank your reputation |
+
+Additional hidden scenarios will be used for final evaluation. Your agent must adapt to unseen conditions based on observations and alerts.
+
+### Recommended seeds
+
+Use these seeds during development for reproducible, comparable results:
+
+| Seed | Purpose |
+|------|---------|
+| `42` | Primary development seed |
+| `88` | Alternate seed for variety |
+| `123` | Stress-test seed |
 
 ```bash
 # Play a specific scenario
@@ -279,6 +289,18 @@ python -m agents.llm_template       # LLM starting point (needs API key)
 python -m agents.compare            # Run all baselines side by side
 ```
 
+### Evaluate across scenarios and seeds
+
+```bash
+python -m agents.evaluate agents.my_agent                          # all scenarios, seeds 42/88/123
+python -m agents.evaluate agents.my_agent --scenarios baseline,supply_crisis
+python -m agents.evaluate agents.my_agent --seeds 42,88
+python -m agents.evaluate agents.my_agent --parallel 5             # control concurrency (default: 10)
+python -m agents.evaluate agents.my_agent --quiet                  # summary table only
+```
+
+Runs your agent against every (scenario, seed) combination in parallel and prints a summary report.
+
 ---
 
 ## API Reference
@@ -297,6 +319,10 @@ python -m agents.compare            # Run all baselines side by side
 | `GET` | `/games` | List games. Filter: `?team_name=my_team` |
 | `DELETE` | `/games/{id}` | Abandon a game |
 | `GET` | `/health` | Server health check |
+
+### Rate Limits
+
+Per team: max **10 concurrent games** and **60 games per hour**. Exceeding either returns `429 Too Many Requests`. The evaluate harness handles parallelism automatically.
 
 ---
 
