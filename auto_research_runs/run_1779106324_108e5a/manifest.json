@@ -1,0 +1,39 @@
+{
+  "run_id": "run_1779106324_108e5a",
+  "label": "wiring-smoke",
+  "overlay": {},
+  "scenarios": [
+    "baseline"
+  ],
+  "seeds": [
+    42
+  ],
+  "games": [
+    {
+      "scenario": "baseline",
+      "seed": 42,
+      "score": 2751.06,
+      "days": 30,
+      "cash": 20077.46,
+      "profit": 5077.46,
+      "sat_pen": 0.0,
+      "rep_pen": 741.42,
+      "walk_pen": 1422.0,
+      "waste_pen": 162.97,
+      "status": "completed"
+    }
+  ],
+  "mean_score": 2751.06,
+  "min_score": 2751.06,
+  "max_score": 2751.06,
+  "stddev_score": 0.0,
+  "bankruptcies": 0,
+  "errors": 0,
+  "robust_score": 2751.06,
+  "per_scenario_avg": {
+    "baseline": 2751.06
+  },
+  "wall_seconds": 20.422334909439087,
+  "git_marker": "793d55d+dirty",
+  "timestamp": "2026-05-18T14:12:24"
+}

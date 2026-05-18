@@ -1,0 +1,86 @@
+{
+  "run_id": "run_1779106621_6be608",
+  "label": "screen candidates.DOW_STAFF_ANCHOR.Wednesday=7",
+  "overlay": {
+    "candidates.DOW_STAFF_ANCHOR.Wednesday": 7
+  },
+  "scenarios": [
+    "baseline",
+    "supply_crisis",
+    "tourist_season",
+    "renovation"
+  ],
+  "seeds": [
+    42
+  ],
+  "games": [
+    {
+      "scenario": "baseline",
+      "seed": 42,
+      "score": 2635.25,
+      "days": 30,
+      "cash": 19957.46,
+      "profit": 4957.46,
+      "sat_pen": 0.0,
+      "rep_pen": 737.24,
+      "walk_pen": 1422.0,
+      "waste_pen": 162.97,
+      "status": "completed"
+    },
+    {
+      "scenario": "renovation",
+      "seed": 42,
+      "score": -10007.38,
+      "days": 30,
+      "cash": 10800.25,
+      "profit": -6199.75,
+      "sat_pen": 0.0,
+      "rep_pen": 1910.46,
+      "walk_pen": 1566.0,
+      "waste_pen": 331.17,
+      "status": "completed"
+    },
+    {
+      "scenario": "supply_crisis",
+      "seed": 42,
+      "score": -312.37,
+      "days": 30,
+      "cash": 17171.22,
+      "profit": 2171.22,
+      "sat_pen": 0.0,
+      "rep_pen": 929.32,
+      "walk_pen": 1397.0,
+      "waste_pen": 157.27,
+      "status": "completed"
+    },
+    {
+      "scenario": "tourist_season",
+      "seed": 42,
+      "score": 6847.99,
+      "days": 30,
+      "cash": 24289.95,
+      "profit": 9289.95,
+      "sat_pen": 0.0,
+      "rep_pen": 292.77,
+      "walk_pen": 2063.0,
+      "waste_pen": 86.19,
+      "status": "completed"
+    }
+  ],
+  "mean_score": -209.12749999999986,
+  "min_score": -10007.38,
+  "max_score": 6847.99,
+  "stddev_score": 6203.01946310978,
+  "bankruptcies": 0,
+  "errors": 0,
+  "robust_score": -3310.63723155489,
+  "per_scenario_avg": {
+    "baseline": 2635.25,
+    "renovation": -10007.38,
+    "supply_crisis": -312.37,
+    "tourist_season": 6847.99
+  },
+  "wall_seconds": 20.785730123519897,
+  "git_marker": "793d55d+dirty",
+  "timestamp": "2026-05-18T14:17:22"
+}

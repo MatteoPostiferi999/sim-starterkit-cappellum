@@ -1,0 +1,13 @@
+{
+  "run_id": "run_1779106430_1d9db3",
+  "overlay": {},
+  "robust_score": -622.2603812696234,
+  "mean_score": 2726.4725,
+  "bankruptcies": 0,
+  "per_scenario_avg": {
+    "baseline": 4861.916666666667,
+    "renovation": -7439.596666666665,
+    "supply_crisis": 3834.3799999999997,
+    "tourist_season": 9649.19
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "avg_score": 25939.52333333333,
+  "bankruptcies": 0,
+  "n_games": 12,
+  "scores_by_scenario": {
+    "baseline": 30928.4,
+    "renovation": 13669.3,
+    "supply_crisis": 17435.9,
+    "tourist_season": 41724.5
+  },
+  "snapshot_dir": "best_runs/best-20260518-150238-25939",
+  "run_file": "eval_runs/run-20260518-145853-tight_hot_mkt.json",
+  "ts": "20260518-150238",
+  "label": "tight_hot_mkt"
+}

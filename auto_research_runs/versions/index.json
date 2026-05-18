@@ -1,0 +1,78 @@
+[
+  {
+    "name": "v1",
+    "slug": "v0-baseline-mpc-pure",
+    "label": "v0_baseline_mpc_pure",
+    "run_id": "run_1779106430_1d9db3",
+    "overlay": {},
+    "robust_score": -622.2603812696234,
+    "mean_score": 2726.4725,
+    "min_score": -10007.38,
+    "max_score": 12732.71,
+    "stddev_score": 6697.4657625392465,
+    "bankruptcies": 0,
+    "per_scenario_avg": {
+      "baseline": 4861.916666666667,
+      "renovation": -7439.596666666665,
+      "supply_crisis": 3834.3799999999997,
+      "tourist_season": 9649.19
+    },
+    "scenarios": [
+      "baseline",
+      "supply_crisis",
+      "tourist_season",
+      "renovation"
+    ],
+    "seeds": [
+      42,
+      88,
+      123
+    ],
+    "git": "793d55d+dirty",
+    "timestamp": "2026-05-18T14:23:21",
+    "parent": null
+  },
+  {
+    "name": "v2",
+    "slug": "t1-premium-pricing-loss",
+    "label": "T1_premium_pricing_LOSS",
+    "run_id": "run_1779106751_2985b1",
+    "overlay": {
+      "candidates.PRICE_MULTS": [
+        1.0,
+        1.05,
+        1.1,
+        1.15,
+        1.18,
+        1.2
+      ],
+      "candidates.DEFAULT_FUTURE_PRICE_MULT": 1.1
+    },
+    "robust_score": -704.928672817241,
+    "mean_score": 2473.8416666666667,
+    "min_score": -8691.35,
+    "max_score": 12683.64,
+    "stddev_score": 6357.540678967815,
+    "bankruptcies": 0,
+    "per_scenario_avg": {
+      "baseline": 5246.183333333333,
+      "renovation": -7000.919999999999,
+      "supply_crisis": 3865.0033333333336,
+      "tourist_season": 7785.099999999999
+    },
+    "scenarios": [
+      "baseline",
+      "supply_crisis",
+      "tourist_season",
+      "renovation"
+    ],
+    "seeds": [
+      42,
+      88,
+      123
+    ],
+    "git": "793d55d+dirty",
+    "timestamp": "2026-05-18T14:23:21",
+    "parent": "v1"
+  }
+]

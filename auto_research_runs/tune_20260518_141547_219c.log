@@ -1,0 +1,28 @@
+[14:15:47] SESSION 20260518_141547_219c START
+[14:15:47] iters=1 holdout=False resume=True parallel=5
+[14:15:47] smoke_seeds=[42] full_seeds=[42, 88, 123] scenarios=['baseline', 'supply_crisis', 'tourist_season', 'renovation']
+[14:15:47] Resuming from best.json — overlay has 0 knob(s)
+[14:15:47] Skipping baseline; using stored best_full robust=-622
+[14:15:47] >>> Calibrating smoke baseline (1-seed) <<<
+[14:16:07] smoke_baseline robust=-3217
+[14:16:07] 
+[14:16:07] ──────────────────────────────────────────────────────────────────────
+[14:16:07] ITER 1/1  knob=candidates.DOW_STAFF_ANCHOR.Wednesday
+[14:16:07]   current value: (default)
+[14:16:07]   candidate values: [5, 6, 7]
+[14:16:07]   SCREEN candidates.DOW_STAFF_ANCHOR.Wednesday = 5  (smoke seeds [42])
+[14:16:36]     smoke robust=-3032 mean=72 bankruptcies=0 run_id=run_1779106567_5e21ac
+[14:16:36]     REJECT @ screen (need +200)
+[14:16:36]   SCREEN candidates.DOW_STAFF_ANCHOR.Wednesday = 6  (smoke seeds [42])
+[14:17:01]     smoke robust=-3217 mean=-92 bankruptcies=0 run_id=run_1779106596_8630bd
+[14:17:01]     REJECT @ screen (need +200)
+[14:17:01]   SCREEN candidates.DOW_STAFF_ANCHOR.Wednesday = 7  (smoke seeds [42])
+[14:17:22]     smoke robust=-3311 mean=-209 bankruptcies=0 run_id=run_1779106621_6be608
+[14:17:22]     REJECT @ screen (need +200)
+[14:17:22]   knob did not improve  (streak 1/6)
+[14:17:22] 
+[14:17:22] ══════════════════════════════════════════════════════════════════════
+[14:17:22] SESSION DONE — iterations=1, no_improve_streak=1
+[14:17:22] Best robust : -622
+[14:17:22] Best mean   : 2726
+[14:17:22] Best overlay knobs (0):
