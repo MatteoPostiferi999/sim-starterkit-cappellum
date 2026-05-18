@@ -1,0 +1,137 @@
+{
+  "Fresh Farms NL": {
+    "lead_time_days": 1,
+    "delivery_days": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "min_order_kg": 5.0,
+    "ingredients": {
+      "Tomato Sauce": 3.1,
+      "Mushrooms": 4.2,
+      "Lettuce": 2.8,
+      "Chicken": 8.5
+    },
+    "seen_in": [
+      "baseline_seed42",
+      "baseline_seed88",
+      "baseline_seed123",
+      "supply_crisis_seed42",
+      "supply_crisis_seed88",
+      "supply_crisis_seed123",
+      "tourist_season_seed42",
+      "tourist_season_seed88",
+      "tourist_season_seed123",
+      "renovation_seed42",
+      "renovation_seed88",
+      "renovation_seed123"
+    ]
+  },
+  "Canal Dairy Co.": {
+    "lead_time_days": 1,
+    "delivery_days": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "min_order_kg": 5.0,
+    "ingredients": {
+      "Mozzarella": 9.5,
+      "Cream": 3.8
+    },
+    "seen_in": [
+      "baseline_seed42",
+      "baseline_seed88",
+      "baseline_seed123",
+      "supply_crisis_seed42",
+      "supply_crisis_seed88",
+      "supply_crisis_seed123",
+      "tourist_season_seed42",
+      "tourist_season_seed88",
+      "tourist_season_seed123",
+      "renovation_seed42",
+      "renovation_seed88",
+      "renovation_seed123"
+    ]
+  },
+  "North Sea Millers": {
+    "lead_time_days": 2,
+    "delivery_days": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "min_order_kg": 10.0,
+    "ingredients": {
+      "Flour": 1.8,
+      "Fresh Pasta": 5.5
+    },
+    "seen_in": [
+      "baseline_seed42",
+      "baseline_seed88",
+      "baseline_seed123",
+      "supply_crisis_seed42",
+      "supply_crisis_seed88",
+      "supply_crisis_seed123",
+      "tourist_season_seed42",
+      "tourist_season_seed88",
+      "tourist_season_seed123",
+      "renovation_seed42",
+      "renovation_seed88",
+      "renovation_seed123"
+    ]
+  },
+  "Nordic Fish Co.": {
+    "lead_time_days": 1,
+    "delivery_days": [
+      "Monday",
+      "Thursday"
+    ],
+    "min_order_kg": 5.0,
+    "ingredients": {
+      "Salmon": 18.5
+    },
+    "seen_in": [
+      "baseline_seed42",
+      "baseline_seed88",
+      "baseline_seed123",
+      "supply_crisis_seed42",
+      "supply_crisis_seed88",
+      "supply_crisis_seed123",
+      "tourist_season_seed42",
+      "tourist_season_seed88",
+      "tourist_season_seed123",
+      "renovation_seed42",
+      "renovation_seed88",
+      "renovation_seed123"
+    ]
+  },
+  "Italian Imports Co.": {
+    "lead_time_days": 3,
+    "delivery_days": [
+      "Wednesday"
+    ],
+    "min_order_kg": 10.0,
+    "ingredients": {
+      "Flour": 1.5,
+      "Fresh Pasta": 4.8,
+      "Pepperoni": 12.0,
+      "Tomato Sauce": 2.6
+    },
+    "seen_in": [
+      "baseline_seed42",
+      "baseline_seed88",
+      "baseline_seed123",
+      "supply_crisis_seed42",
+      "supply_crisis_seed88",
+      "supply_crisis_seed123",
+      "tourist_season_seed42",
+      "tourist_season_seed88",
+      "tourist_season_seed123",
+      "renovation_seed42",
+      "renovation_seed88",
+      "renovation_seed123"
+    ]
+  }
+}

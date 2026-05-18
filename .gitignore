@@ -4,15 +4,22 @@ __pycache__/
 dist/
 build/
 .venv/
+venv/
 .env
 .pytest_cache/
 .ruff_cache/
-*.jsonl
 *.pem
 restbench.db
 restbench_data/
 infra/cdk/cdk.out/
 infra/cdk/cdk.context.json
+
+# Reconnaissance dumps (regeneratable via `python -m agents.recon`)
+recon_data/games/
+recon_data/metadata/leaderboard_*.json
+
+# Hackathon materials (kept locally, not committed)
+*.pdf
 
 # Internal files (not for participants)
 VOLUNTEER_TIPS.md

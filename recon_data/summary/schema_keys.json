@@ -1,0 +1,48 @@
+{
+  "observation_top_level": [
+    "active_menu",
+    "alerts",
+    "cash",
+    "cost_breakdown",
+    "customer_trend",
+    "day",
+    "day_of_week",
+    "days_remaining",
+    "delivery_history",
+    "inventory",
+    "menu_book",
+    "notes",
+    "pending_orders",
+    "recent_reviews",
+    "reputation_band",
+    "service_summary",
+    "staff_cost_per_person",
+    "staff_level",
+    "supplier_catalog",
+    "tick_budget_ms",
+    "weather_forecast",
+    "weather_today",
+    "yesterday_revenue",
+    "yesterday_total_costs"
+  ],
+  "service_summary": [
+    "avg_wait_minutes",
+    "dishes_sold",
+    "dishes_unavailable_at",
+    "hourly_covers",
+    "kitchen_bottleneck_hours",
+    "peak_wait_minutes",
+    "substitution_count",
+    "table_utilization_peak",
+    "total_covers",
+    "total_revenue",
+    "walkout_band"
+  ],
+  "day_result": [
+    "dishes_sold",
+    "substitutions",
+    "total_covers",
+    "total_revenue",
+    "walkout_band"
+  ]
+}

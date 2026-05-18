@@ -1,0 +1,30 @@
+{
+  "Nordic Fish Co.": {
+    "samples": 45,
+    "on_time_rate": 0.222,
+    "short_delivery_rate": 0.778,
+    "zero_delivery_rate": 0.0,
+    "avg_fill_rate": 0.769
+  },
+  "Canal Dairy Co.": {
+    "samples": 67,
+    "on_time_rate": 0.179,
+    "short_delivery_rate": 0.821,
+    "zero_delivery_rate": 0.0,
+    "avg_fill_rate": 0.792
+  },
+  "Fresh Farms NL": {
+    "samples": 130,
+    "on_time_rate": 0.085,
+    "short_delivery_rate": 0.915,
+    "zero_delivery_rate": 0.0,
+    "avg_fill_rate": 0.73
+  },
+  "Italian Imports Co.": {
+    "samples": 67,
+    "on_time_rate": 0.179,
+    "short_delivery_rate": 0.821,
+    "zero_delivery_rate": 0.0,
+    "avg_fill_rate": 0.761
+  }
+}

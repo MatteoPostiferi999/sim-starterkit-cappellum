@@ -1,0 +1,1514 @@
+{
+  "baseline_seed42": [
+    {
+      "day": 1,
+      "weather": "rainy"
+    },
+    {
+      "day": 2,
+      "weather": "rainy"
+    },
+    {
+      "day": 3,
+      "weather": "rainy"
+    },
+    {
+      "day": 4,
+      "weather": "rainy"
+    },
+    {
+      "day": 5,
+      "weather": "cloudy"
+    },
+    {
+      "day": 6,
+      "weather": "stormy"
+    },
+    {
+      "day": 7,
+      "weather": "sunny"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "cloudy"
+    },
+    {
+      "day": 10,
+      "weather": "cloudy"
+    },
+    {
+      "day": 11,
+      "weather": "rainy"
+    },
+    {
+      "day": 12,
+      "weather": "sunny"
+    },
+    {
+      "day": 13,
+      "weather": "cloudy"
+    },
+    {
+      "day": 14,
+      "weather": "rainy"
+    },
+    {
+      "day": 15,
+      "weather": "rainy"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "rainy"
+    },
+    {
+      "day": 18,
+      "weather": "cloudy"
+    },
+    {
+      "day": 19,
+      "weather": "stormy"
+    },
+    {
+      "day": 20,
+      "weather": "cloudy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "stormy"
+    },
+    {
+      "day": 23,
+      "weather": "rainy"
+    },
+    {
+      "day": 24,
+      "weather": "stormy"
+    },
+    {
+      "day": 25,
+      "weather": "rainy"
+    },
+    {
+      "day": 26,
+      "weather": "sunny"
+    },
+    {
+      "day": 27,
+      "weather": "sunny"
+    },
+    {
+      "day": 28,
+      "weather": "cloudy"
+    },
+    {
+      "day": 29,
+      "weather": "stormy"
+    },
+    {
+      "day": 30,
+      "weather": "sunny"
+    },
+    {
+      "day": 31,
+      "weather": "cloudy"
+    }
+  ],
+  "baseline_seed88": [
+    {
+      "day": 1,
+      "weather": "sunny"
+    },
+    {
+      "day": 2,
+      "weather": "sunny"
+    },
+    {
+      "day": 3,
+      "weather": "rainy"
+    },
+    {
+      "day": 4,
+      "weather": "rainy"
+    },
+    {
+      "day": 5,
+      "weather": "sunny"
+    },
+    {
+      "day": 6,
+      "weather": "cloudy"
+    },
+    {
+      "day": 7,
+      "weather": "rainy"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "rainy"
+    },
+    {
+      "day": 10,
+      "weather": "cloudy"
+    },
+    {
+      "day": 11,
+      "weather": "rainy"
+    },
+    {
+      "day": 12,
+      "weather": "sunny"
+    },
+    {
+      "day": 13,
+      "weather": "sunny"
+    },
+    {
+      "day": 14,
+      "weather": "sunny"
+    },
+    {
+      "day": 15,
+      "weather": "sunny"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "rainy"
+    },
+    {
+      "day": 18,
+      "weather": "sunny"
+    },
+    {
+      "day": 19,
+      "weather": "cloudy"
+    },
+    {
+      "day": 20,
+      "weather": "rainy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "cloudy"
+    },
+    {
+      "day": 23,
+      "weather": "sunny"
+    },
+    {
+      "day": 24,
+      "weather": "sunny"
+    },
+    {
+      "day": 25,
+      "weather": "sunny"
+    },
+    {
+      "day": 26,
+      "weather": "cloudy"
+    },
+    {
+      "day": 27,
+      "weather": "cloudy"
+    },
+    {
+      "day": 28,
+      "weather": "cloudy"
+    },
+    {
+      "day": 29,
+      "weather": "sunny"
+    },
+    {
+      "day": 30,
+      "weather": "cloudy"
+    },
+    {
+      "day": 31,
+      "weather": "sunny"
+    }
+  ],
+  "baseline_seed123": [
+    {
+      "day": 1,
+      "weather": "cloudy"
+    },
+    {
+      "day": 2,
+      "weather": "cloudy"
+    },
+    {
+      "day": 3,
+      "weather": "cloudy"
+    },
+    {
+      "day": 4,
+      "weather": "sunny"
+    },
+    {
+      "day": 5,
+      "weather": "cloudy"
+    },
+    {
+      "day": 6,
+      "weather": "cloudy"
+    },
+    {
+      "day": 7,
+      "weather": "sunny"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "cloudy"
+    },
+    {
+      "day": 10,
+      "weather": "sunny"
+    },
+    {
+      "day": 11,
+      "weather": "cloudy"
+    },
+    {
+      "day": 12,
+      "weather": "rainy"
+    },
+    {
+      "day": 13,
+      "weather": "cloudy"
+    },
+    {
+      "day": 14,
+      "weather": "sunny"
+    },
+    {
+      "day": 15,
+      "weather": "cloudy"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "cloudy"
+    },
+    {
+      "day": 18,
+      "weather": "sunny"
+    },
+    {
+      "day": 19,
+      "weather": "rainy"
+    },
+    {
+      "day": 20,
+      "weather": "cloudy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "rainy"
+    },
+    {
+      "day": 23,
+      "weather": "cloudy"
+    },
+    {
+      "day": 24,
+      "weather": "cloudy"
+    },
+    {
+      "day": 25,
+      "weather": "rainy"
+    },
+    {
+      "day": 26,
+      "weather": "cloudy"
+    },
+    {
+      "day": 27,
+      "weather": "rainy"
+    },
+    {
+      "day": 28,
+      "weather": "rainy"
+    },
+    {
+      "day": 29,
+      "weather": "rainy"
+    },
+    {
+      "day": 30,
+      "weather": "cloudy"
+    },
+    {
+      "day": 31,
+      "weather": "rainy"
+    }
+  ],
+  "supply_crisis_seed42": [
+    {
+      "day": 1,
+      "weather": "rainy"
+    },
+    {
+      "day": 2,
+      "weather": "rainy"
+    },
+    {
+      "day": 3,
+      "weather": "rainy"
+    },
+    {
+      "day": 4,
+      "weather": "rainy"
+    },
+    {
+      "day": 5,
+      "weather": "cloudy"
+    },
+    {
+      "day": 6,
+      "weather": "stormy"
+    },
+    {
+      "day": 7,
+      "weather": "sunny"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "cloudy"
+    },
+    {
+      "day": 10,
+      "weather": "cloudy"
+    },
+    {
+      "day": 11,
+      "weather": "rainy"
+    },
+    {
+      "day": 12,
+      "weather": "sunny"
+    },
+    {
+      "day": 13,
+      "weather": "cloudy"
+    },
+    {
+      "day": 14,
+      "weather": "rainy"
+    },
+    {
+      "day": 15,
+      "weather": "rainy"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "rainy"
+    },
+    {
+      "day": 18,
+      "weather": "cloudy"
+    },
+    {
+      "day": 19,
+      "weather": "stormy"
+    },
+    {
+      "day": 20,
+      "weather": "cloudy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "stormy"
+    },
+    {
+      "day": 23,
+      "weather": "rainy"
+    },
+    {
+      "day": 24,
+      "weather": "stormy"
+    },
+    {
+      "day": 25,
+      "weather": "rainy"
+    },
+    {
+      "day": 26,
+      "weather": "sunny"
+    },
+    {
+      "day": 27,
+      "weather": "sunny"
+    },
+    {
+      "day": 28,
+      "weather": "cloudy"
+    },
+    {
+      "day": 29,
+      "weather": "stormy"
+    },
+    {
+      "day": 30,
+      "weather": "sunny"
+    },
+    {
+      "day": 31,
+      "weather": "cloudy"
+    }
+  ],
+  "supply_crisis_seed88": [
+    {
+      "day": 1,
+      "weather": "sunny"
+    },
+    {
+      "day": 2,
+      "weather": "sunny"
+    },
+    {
+      "day": 3,
+      "weather": "rainy"
+    },
+    {
+      "day": 4,
+      "weather": "rainy"
+    },
+    {
+      "day": 5,
+      "weather": "sunny"
+    },
+    {
+      "day": 6,
+      "weather": "cloudy"
+    },
+    {
+      "day": 7,
+      "weather": "rainy"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "rainy"
+    },
+    {
+      "day": 10,
+      "weather": "cloudy"
+    },
+    {
+      "day": 11,
+      "weather": "rainy"
+    },
+    {
+      "day": 12,
+      "weather": "sunny"
+    },
+    {
+      "day": 13,
+      "weather": "sunny"
+    },
+    {
+      "day": 14,
+      "weather": "sunny"
+    },
+    {
+      "day": 15,
+      "weather": "sunny"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "rainy"
+    },
+    {
+      "day": 18,
+      "weather": "sunny"
+    },
+    {
+      "day": 19,
+      "weather": "cloudy"
+    },
+    {
+      "day": 20,
+      "weather": "rainy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "cloudy"
+    },
+    {
+      "day": 23,
+      "weather": "sunny"
+    },
+    {
+      "day": 24,
+      "weather": "sunny"
+    },
+    {
+      "day": 25,
+      "weather": "sunny"
+    },
+    {
+      "day": 26,
+      "weather": "cloudy"
+    },
+    {
+      "day": 27,
+      "weather": "cloudy"
+    },
+    {
+      "day": 28,
+      "weather": "cloudy"
+    },
+    {
+      "day": 29,
+      "weather": "sunny"
+    },
+    {
+      "day": 30,
+      "weather": "cloudy"
+    },
+    {
+      "day": 31,
+      "weather": "sunny"
+    }
+  ],
+  "supply_crisis_seed123": [
+    {
+      "day": 1,
+      "weather": "cloudy"
+    },
+    {
+      "day": 2,
+      "weather": "cloudy"
+    },
+    {
+      "day": 3,
+      "weather": "cloudy"
+    },
+    {
+      "day": 4,
+      "weather": "sunny"
+    },
+    {
+      "day": 5,
+      "weather": "cloudy"
+    },
+    {
+      "day": 6,
+      "weather": "cloudy"
+    },
+    {
+      "day": 7,
+      "weather": "sunny"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "cloudy"
+    },
+    {
+      "day": 10,
+      "weather": "sunny"
+    },
+    {
+      "day": 11,
+      "weather": "cloudy"
+    },
+    {
+      "day": 12,
+      "weather": "rainy"
+    },
+    {
+      "day": 13,
+      "weather": "cloudy"
+    },
+    {
+      "day": 14,
+      "weather": "sunny"
+    },
+    {
+      "day": 15,
+      "weather": "cloudy"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "cloudy"
+    },
+    {
+      "day": 18,
+      "weather": "sunny"
+    },
+    {
+      "day": 19,
+      "weather": "rainy"
+    },
+    {
+      "day": 20,
+      "weather": "cloudy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "rainy"
+    },
+    {
+      "day": 23,
+      "weather": "cloudy"
+    },
+    {
+      "day": 24,
+      "weather": "cloudy"
+    },
+    {
+      "day": 25,
+      "weather": "rainy"
+    },
+    {
+      "day": 26,
+      "weather": "cloudy"
+    },
+    {
+      "day": 27,
+      "weather": "rainy"
+    },
+    {
+      "day": 28,
+      "weather": "rainy"
+    },
+    {
+      "day": 29,
+      "weather": "rainy"
+    },
+    {
+      "day": 30,
+      "weather": "cloudy"
+    },
+    {
+      "day": 31,
+      "weather": "rainy"
+    }
+  ],
+  "tourist_season_seed42": [
+    {
+      "day": 1,
+      "weather": "rainy"
+    },
+    {
+      "day": 2,
+      "weather": "rainy"
+    },
+    {
+      "day": 3,
+      "weather": "rainy"
+    },
+    {
+      "day": 4,
+      "weather": "rainy"
+    },
+    {
+      "day": 5,
+      "weather": "cloudy"
+    },
+    {
+      "day": 6,
+      "weather": "stormy"
+    },
+    {
+      "day": 7,
+      "weather": "sunny"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "cloudy"
+    },
+    {
+      "day": 10,
+      "weather": "cloudy"
+    },
+    {
+      "day": 11,
+      "weather": "rainy"
+    },
+    {
+      "day": 12,
+      "weather": "sunny"
+    },
+    {
+      "day": 13,
+      "weather": "cloudy"
+    },
+    {
+      "day": 14,
+      "weather": "rainy"
+    },
+    {
+      "day": 15,
+      "weather": "rainy"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "rainy"
+    },
+    {
+      "day": 18,
+      "weather": "cloudy"
+    },
+    {
+      "day": 19,
+      "weather": "stormy"
+    },
+    {
+      "day": 20,
+      "weather": "cloudy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "stormy"
+    },
+    {
+      "day": 23,
+      "weather": "rainy"
+    },
+    {
+      "day": 24,
+      "weather": "stormy"
+    },
+    {
+      "day": 25,
+      "weather": "rainy"
+    },
+    {
+      "day": 26,
+      "weather": "sunny"
+    },
+    {
+      "day": 27,
+      "weather": "sunny"
+    },
+    {
+      "day": 28,
+      "weather": "cloudy"
+    },
+    {
+      "day": 29,
+      "weather": "stormy"
+    },
+    {
+      "day": 30,
+      "weather": "sunny"
+    },
+    {
+      "day": 31,
+      "weather": "cloudy"
+    }
+  ],
+  "tourist_season_seed88": [
+    {
+      "day": 1,
+      "weather": "sunny"
+    },
+    {
+      "day": 2,
+      "weather": "sunny"
+    },
+    {
+      "day": 3,
+      "weather": "rainy"
+    },
+    {
+      "day": 4,
+      "weather": "rainy"
+    },
+    {
+      "day": 5,
+      "weather": "sunny"
+    },
+    {
+      "day": 6,
+      "weather": "cloudy"
+    },
+    {
+      "day": 7,
+      "weather": "rainy"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "rainy"
+    },
+    {
+      "day": 10,
+      "weather": "cloudy"
+    },
+    {
+      "day": 11,
+      "weather": "rainy"
+    },
+    {
+      "day": 12,
+      "weather": "sunny"
+    },
+    {
+      "day": 13,
+      "weather": "sunny"
+    },
+    {
+      "day": 14,
+      "weather": "sunny"
+    },
+    {
+      "day": 15,
+      "weather": "sunny"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "rainy"
+    },
+    {
+      "day": 18,
+      "weather": "sunny"
+    },
+    {
+      "day": 19,
+      "weather": "cloudy"
+    },
+    {
+      "day": 20,
+      "weather": "rainy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "cloudy"
+    },
+    {
+      "day": 23,
+      "weather": "sunny"
+    },
+    {
+      "day": 24,
+      "weather": "sunny"
+    },
+    {
+      "day": 25,
+      "weather": "sunny"
+    },
+    {
+      "day": 26,
+      "weather": "cloudy"
+    },
+    {
+      "day": 27,
+      "weather": "cloudy"
+    },
+    {
+      "day": 28,
+      "weather": "cloudy"
+    },
+    {
+      "day": 29,
+      "weather": "sunny"
+    },
+    {
+      "day": 30,
+      "weather": "cloudy"
+    },
+    {
+      "day": 31,
+      "weather": "sunny"
+    }
+  ],
+  "tourist_season_seed123": [
+    {
+      "day": 1,
+      "weather": "cloudy"
+    },
+    {
+      "day": 2,
+      "weather": "cloudy"
+    },
+    {
+      "day": 3,
+      "weather": "cloudy"
+    },
+    {
+      "day": 4,
+      "weather": "sunny"
+    },
+    {
+      "day": 5,
+      "weather": "cloudy"
+    },
+    {
+      "day": 6,
+      "weather": "cloudy"
+    },
+    {
+      "day": 7,
+      "weather": "sunny"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "cloudy"
+    },
+    {
+      "day": 10,
+      "weather": "sunny"
+    },
+    {
+      "day": 11,
+      "weather": "cloudy"
+    },
+    {
+      "day": 12,
+      "weather": "rainy"
+    },
+    {
+      "day": 13,
+      "weather": "cloudy"
+    },
+    {
+      "day": 14,
+      "weather": "sunny"
+    },
+    {
+      "day": 15,
+      "weather": "cloudy"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "cloudy"
+    },
+    {
+      "day": 18,
+      "weather": "sunny"
+    },
+    {
+      "day": 19,
+      "weather": "rainy"
+    },
+    {
+      "day": 20,
+      "weather": "cloudy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "rainy"
+    },
+    {
+      "day": 23,
+      "weather": "cloudy"
+    },
+    {
+      "day": 24,
+      "weather": "cloudy"
+    },
+    {
+      "day": 25,
+      "weather": "rainy"
+    },
+    {
+      "day": 26,
+      "weather": "cloudy"
+    },
+    {
+      "day": 27,
+      "weather": "rainy"
+    },
+    {
+      "day": 28,
+      "weather": "rainy"
+    },
+    {
+      "day": 29,
+      "weather": "rainy"
+    },
+    {
+      "day": 30,
+      "weather": "cloudy"
+    },
+    {
+      "day": 31,
+      "weather": "rainy"
+    }
+  ],
+  "renovation_seed42": [
+    {
+      "day": 1,
+      "weather": "rainy"
+    },
+    {
+      "day": 2,
+      "weather": "rainy"
+    },
+    {
+      "day": 3,
+      "weather": "rainy"
+    },
+    {
+      "day": 4,
+      "weather": "rainy"
+    },
+    {
+      "day": 5,
+      "weather": "cloudy"
+    },
+    {
+      "day": 6,
+      "weather": "stormy"
+    },
+    {
+      "day": 7,
+      "weather": "sunny"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "cloudy"
+    },
+    {
+      "day": 10,
+      "weather": "cloudy"
+    },
+    {
+      "day": 11,
+      "weather": "rainy"
+    },
+    {
+      "day": 12,
+      "weather": "sunny"
+    },
+    {
+      "day": 13,
+      "weather": "cloudy"
+    },
+    {
+      "day": 14,
+      "weather": "rainy"
+    },
+    {
+      "day": 15,
+      "weather": "rainy"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "rainy"
+    },
+    {
+      "day": 18,
+      "weather": "cloudy"
+    },
+    {
+      "day": 19,
+      "weather": "stormy"
+    },
+    {
+      "day": 20,
+      "weather": "cloudy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "stormy"
+    },
+    {
+      "day": 23,
+      "weather": "rainy"
+    },
+    {
+      "day": 24,
+      "weather": "stormy"
+    },
+    {
+      "day": 25,
+      "weather": "rainy"
+    },
+    {
+      "day": 26,
+      "weather": "sunny"
+    },
+    {
+      "day": 27,
+      "weather": "sunny"
+    },
+    {
+      "day": 28,
+      "weather": "cloudy"
+    },
+    {
+      "day": 29,
+      "weather": "stormy"
+    },
+    {
+      "day": 30,
+      "weather": "sunny"
+    },
+    {
+      "day": 31,
+      "weather": "cloudy"
+    }
+  ],
+  "renovation_seed88": [
+    {
+      "day": 1,
+      "weather": "sunny"
+    },
+    {
+      "day": 2,
+      "weather": "sunny"
+    },
+    {
+      "day": 3,
+      "weather": "rainy"
+    },
+    {
+      "day": 4,
+      "weather": "rainy"
+    },
+    {
+      "day": 5,
+      "weather": "sunny"
+    },
+    {
+      "day": 6,
+      "weather": "cloudy"
+    },
+    {
+      "day": 7,
+      "weather": "rainy"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "rainy"
+    },
+    {
+      "day": 10,
+      "weather": "cloudy"
+    },
+    {
+      "day": 11,
+      "weather": "rainy"
+    },
+    {
+      "day": 12,
+      "weather": "sunny"
+    },
+    {
+      "day": 13,
+      "weather": "sunny"
+    },
+    {
+      "day": 14,
+      "weather": "sunny"
+    },
+    {
+      "day": 15,
+      "weather": "sunny"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "rainy"
+    },
+    {
+      "day": 18,
+      "weather": "sunny"
+    },
+    {
+      "day": 19,
+      "weather": "cloudy"
+    },
+    {
+      "day": 20,
+      "weather": "rainy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "cloudy"
+    },
+    {
+      "day": 23,
+      "weather": "sunny"
+    },
+    {
+      "day": 24,
+      "weather": "sunny"
+    },
+    {
+      "day": 25,
+      "weather": "sunny"
+    },
+    {
+      "day": 26,
+      "weather": "cloudy"
+    },
+    {
+      "day": 27,
+      "weather": "cloudy"
+    },
+    {
+      "day": 28,
+      "weather": "cloudy"
+    },
+    {
+      "day": 29,
+      "weather": "sunny"
+    },
+    {
+      "day": 30,
+      "weather": "cloudy"
+    },
+    {
+      "day": 31,
+      "weather": "sunny"
+    }
+  ],
+  "renovation_seed123": [
+    {
+      "day": 1,
+      "weather": "cloudy"
+    },
+    {
+      "day": 2,
+      "weather": "cloudy"
+    },
+    {
+      "day": 3,
+      "weather": "cloudy"
+    },
+    {
+      "day": 4,
+      "weather": "sunny"
+    },
+    {
+      "day": 5,
+      "weather": "cloudy"
+    },
+    {
+      "day": 6,
+      "weather": "cloudy"
+    },
+    {
+      "day": 7,
+      "weather": "sunny"
+    },
+    {
+      "day": 8,
+      "weather": "rainy"
+    },
+    {
+      "day": 9,
+      "weather": "cloudy"
+    },
+    {
+      "day": 10,
+      "weather": "sunny"
+    },
+    {
+      "day": 11,
+      "weather": "cloudy"
+    },
+    {
+      "day": 12,
+      "weather": "rainy"
+    },
+    {
+      "day": 13,
+      "weather": "cloudy"
+    },
+    {
+      "day": 14,
+      "weather": "sunny"
+    },
+    {
+      "day": 15,
+      "weather": "cloudy"
+    },
+    {
+      "day": 16,
+      "weather": "rainy"
+    },
+    {
+      "day": 17,
+      "weather": "cloudy"
+    },
+    {
+      "day": 18,
+      "weather": "sunny"
+    },
+    {
+      "day": 19,
+      "weather": "rainy"
+    },
+    {
+      "day": 20,
+      "weather": "cloudy"
+    },
+    {
+      "day": 21,
+      "weather": "rainy"
+    },
+    {
+      "day": 22,
+      "weather": "rainy"
+    },
+    {
+      "day": 23,
+      "weather": "cloudy"
+    },
+    {
+      "day": 24,
+      "weather": "cloudy"
+    },
+    {
+      "day": 25,
+      "weather": "rainy"
+    },
+    {
+      "day": 26,
+      "weather": "cloudy"
+    },
+    {
+      "day": 27,
+      "weather": "rainy"
+    },
+    {
+      "day": 28,
+      "weather": "rainy"
+    },
+    {
+      "day": 29,
+      "weather": "rainy"
+    },
+    {
+      "day": 30,
+      "weather": "cloudy"
+    },
+    {
+      "day": 31,
+      "weather": "rainy"
+    }
+  ]
+}

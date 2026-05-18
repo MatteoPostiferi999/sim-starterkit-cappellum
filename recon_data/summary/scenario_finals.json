@@ -1,0 +1,154 @@
+{
+  "baseline": [
+    {
+      "seed": 42,
+      "score": -15817.49,
+      "profit": -11431.74,
+      "sat_pen": 0.0,
+      "rep_pen": 2255.41,
+      "walk_pen": 1909.0,
+      "waste_pen": 221.34,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 3568.26
+    },
+    {
+      "seed": 88,
+      "score": -10485.68,
+      "profit": -6074.53,
+      "sat_pen": 0.0,
+      "rep_pen": 2350.63,
+      "walk_pen": 1962.0,
+      "waste_pen": 98.52,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 8925.47
+    },
+    {
+      "seed": 123,
+      "score": -10230.69,
+      "profit": -6857.12,
+      "sat_pen": 0.0,
+      "rep_pen": 1303.83,
+      "walk_pen": 1937.0,
+      "waste_pen": 132.73,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 8142.88
+    }
+  ],
+  "supply_crisis": [
+    {
+      "seed": 42,
+      "score": -15252.13,
+      "profit": -11237.39,
+      "sat_pen": 0.0,
+      "rep_pen": 2012.41,
+      "walk_pen": 1820.0,
+      "waste_pen": 182.32,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 3762.61
+    },
+    {
+      "seed": 88,
+      "score": -13338.41,
+      "profit": -8588.83,
+      "sat_pen": 0.0,
+      "rep_pen": 2792.41,
+      "walk_pen": 1881.0,
+      "waste_pen": 76.17,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 6411.17
+    },
+    {
+      "seed": 123,
+      "score": -11333.19,
+      "profit": -6314.1,
+      "sat_pen": 0.0,
+      "rep_pen": 2849.6,
+      "walk_pen": 2080.0,
+      "waste_pen": 89.49,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 8685.9
+    }
+  ],
+  "tourist_season": [
+    {
+      "seed": 42,
+      "score": -15866.06,
+      "profit": -10822.06,
+      "sat_pen": 0.0,
+      "rep_pen": 2421.71,
+      "walk_pen": 2407.0,
+      "waste_pen": 215.28,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 4177.94
+    },
+    {
+      "seed": 88,
+      "score": -8275.25,
+      "profit": -3510.44,
+      "sat_pen": 0.0,
+      "rep_pen": 2121.54,
+      "walk_pen": 2594.0,
+      "waste_pen": 49.27,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 11489.56
+    },
+    {
+      "seed": 123,
+      "score": -10553.72,
+      "profit": -5511.51,
+      "sat_pen": 0.0,
+      "rep_pen": 2416.56,
+      "walk_pen": 2541.0,
+      "waste_pen": 84.65,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 9488.49
+    }
+  ],
+  "renovation": [
+    {
+      "seed": 42,
+      "score": -17101.22,
+      "profit": -13204.01,
+      "sat_pen": 0.0,
+      "rep_pen": 1967.86,
+      "walk_pen": 1704.0,
+      "waste_pen": 225.35,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 3795.99
+    },
+    {
+      "seed": 88,
+      "score": -14516.46,
+      "profit": -11253.64,
+      "sat_pen": 0.0,
+      "rep_pen": 1226.44,
+      "walk_pen": 1846.0,
+      "waste_pen": 190.38,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 5746.36
+    },
+    {
+      "seed": 123,
+      "score": -14372.2,
+      "profit": -10597.33,
+      "sat_pen": 0.0,
+      "rep_pen": 1721.09,
+      "walk_pen": 1856.0,
+      "waste_pen": 197.78,
+      "status": "completed",
+      "days_survived": 30,
+      "final_cash": 6402.67
+    }
+  ]
+}

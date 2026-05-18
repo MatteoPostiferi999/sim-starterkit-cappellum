@@ -1,0 +1,26 @@
+[
+  {
+    "name": "baseline",
+    "display_name": "Baseline",
+    "description": "No events. The default scenario.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "renovation",
+    "display_name": "Renovation",
+    "description": "The dining room is under renovation for two weeks. Half your tables are unavailable, but the payoff is a satisfaction bonus afterward.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "supply_crisis",
+    "display_name": "Supply Chain Crisis",
+    "description": "A major supplier goes into extended outage mid-game. Tests supply chain diversification and contingency planning.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "tourist_season",
+    "display_name": "Tourist Season",
+    "description": "Massive demand swings as a festival brings tourists, then leaves the neighborhood quiet. Tests dynamic staffing and inventory scaling.",
+    "difficulty": "medium"
+  }
+]

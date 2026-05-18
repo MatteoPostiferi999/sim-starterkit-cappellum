@@ -1,0 +1,130 @@
+{
+  "Pizza Margherita": {
+    "category": "Pizza",
+    "base_price": 14.5,
+    "ingredients": [
+      {
+        "ingredient": "Flour",
+        "quantity_kg": 0.25
+      },
+      {
+        "ingredient": "Tomato Sauce",
+        "quantity_kg": 0.09
+      },
+      {
+        "ingredient": "Mozzarella",
+        "quantity_kg": 0.11
+      }
+    ]
+  },
+  "Pizza Pepperoni": {
+    "category": "Pizza",
+    "base_price": 16.0,
+    "ingredients": [
+      {
+        "ingredient": "Flour",
+        "quantity_kg": 0.25
+      },
+      {
+        "ingredient": "Tomato Sauce",
+        "quantity_kg": 0.085
+      },
+      {
+        "ingredient": "Mozzarella",
+        "quantity_kg": 0.1
+      },
+      {
+        "ingredient": "Pepperoni",
+        "quantity_kg": 0.07
+      }
+    ]
+  },
+  "Mushroom Tagliatelle": {
+    "category": "Pasta",
+    "base_price": 17.5,
+    "ingredients": [
+      {
+        "ingredient": "Fresh Pasta",
+        "quantity_kg": 0.18
+      },
+      {
+        "ingredient": "Cream",
+        "quantity_kg": 0.12
+      },
+      {
+        "ingredient": "Mushrooms",
+        "quantity_kg": 0.09
+      }
+    ]
+  },
+  "Spaghetti Carbonara": {
+    "category": "Pasta",
+    "base_price": 16.5,
+    "ingredients": [
+      {
+        "ingredient": "Fresh Pasta",
+        "quantity_kg": 0.18
+      },
+      {
+        "ingredient": "Cream",
+        "quantity_kg": 0.08
+      }
+    ]
+  },
+  "Chicken Caesar Salad": {
+    "category": "Salad",
+    "base_price": 15.0,
+    "ingredients": [
+      {
+        "ingredient": "Chicken",
+        "quantity_kg": 0.14
+      },
+      {
+        "ingredient": "Lettuce",
+        "quantity_kg": 0.12
+      }
+    ]
+  },
+  "Grilled Salmon": {
+    "category": "Mains",
+    "base_price": 24.0,
+    "ingredients": [
+      {
+        "ingredient": "Salmon",
+        "quantity_kg": 0.2
+      }
+    ]
+  },
+  "Mushroom Risotto": {
+    "category": "Mains",
+    "base_price": 19.0,
+    "ingredients": [
+      {
+        "ingredient": "Mushrooms",
+        "quantity_kg": 0.12
+      },
+      {
+        "ingredient": "Cream",
+        "quantity_kg": 0.1
+      }
+    ]
+  },
+  "Chicken Parmesan": {
+    "category": "Mains",
+    "base_price": 20.0,
+    "ingredients": [
+      {
+        "ingredient": "Chicken",
+        "quantity_kg": 0.18
+      },
+      {
+        "ingredient": "Tomato Sauce",
+        "quantity_kg": 0.08
+      },
+      {
+        "ingredient": "Mozzarella",
+        "quantity_kg": 0.06
+      }
+    ]
+  }
+}

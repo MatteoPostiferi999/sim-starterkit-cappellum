@@ -1,0 +1,18 @@
+{
+  "supply_crisis": [
+    {
+      "text": "Industry analysts warn of potential disruptions in Mediterranean shipping lanes.",
+      "days": [
+        1
+      ]
+    }
+  ],
+  "renovation": [
+    {
+      "text": "The dining room renovation begins today. Half your tables are unavailable for the next two weeks.",
+      "days": [
+        1
+      ]
+    }
+  ]
+}
